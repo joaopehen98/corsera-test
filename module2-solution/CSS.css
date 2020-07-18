@@ -1,3 +1,146 @@
+
+* {
+ 	box-sizing: border-box;
+}
+
 body{
-	background-color: white; 
+	background-color: #001437;
+}
+
+h1 {
+	margin-top: 50px;
+ 	margin-bottom: 50px;
+ 	text-align: center;
+ 	color: #3CB9FC;
+}
+/*refere-se as caixas onde estão os textos*/
+
+#box{
+	border: 5px solid #3CB9FC;
+	background-color: #8A2BE2;
+	width: 95%;
+	height: 275px;
+	color: #001437;
+	margin-right: auto;
+	margin-left: auto;
+	font-family:  Helvetica;
+	font-weight: bold;
+}
+
+#box-3{
+	border: 5px solid #3CB9FC;
+	background-color: #8A2BE2;
+	width: 95%;
+	height: 275px;
+	color: #001437;
+	margin-right: auto;
+	margin-left: auto;
+	font-family:  Helvetica;
+	font-weight: bold;
+}
+
+/*refere-se aos subtítulos*/
+
+#titulo1{
+	height: 30px;
+	width: 100px;
+	border-left: 5px solid #3CB9FC;
+	border-bottom: 5px solid #3CB9FC;
+	background-color: #00FFFF;
+	color: #0033FF;
+	position: relative;
+	text-align: center;
+	margin-top: 0px;
+	padding: 5px;
+	float: right;
+}
+
+#titulo2{
+	height: 30px;
+	width: 100px;
+	border-left: 5px solid #3CB9FC;
+	border-bottom: 5px solid #3CB9FC;
+	background-color: #00FF66;
+	color: black;
+	position: relative;
+	text-align: center;
+	margin-top: 0px;
+	padding: 5px;
+	float: right;
+}
+
+#titulo3{
+	height: 30px;
+	width: 100px;
+	border-left: 5px solid #3CB9FC;
+	border-bottom: 5px solid #3CB9FC;
+	background-color: #FFFF00;
+	color: #9900FF;
+	position: relative;
+	text-align: center;
+	margin-top: 0px;
+	padding: 5px;
+	float: right;
+}
+
+#parágrafo{
+	padding: 5%;
+	margin-top: 35px;
+	text-align: justify;
+}
+
+a{
+	text-decoration: none;
+}
+
+.row{
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+	.col-lg-4{
+    	float: left;
+    	border: none;
+  	}
+	.col-lg-4{
+		width: 33.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#box-3{
+		width: 97.5%;
+	}
+	.col-md-6{
+    	float: left;
+    	border: none;
+  	}
+  	.col-md-12{
+  		float: left;
+    	border: none;
+    	margin-top: 20px;
+  	}
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.col-sm-12{
+		float: left;
+    	border: none;
+    	margin-top: 20px;
+	}
+	#box{
+		width: 97.5%;
+	}
+	#box-3{
+		width: 97.5%;
+	}
+	.col-sm-12{
+		width: 100%;
+	}
 }
