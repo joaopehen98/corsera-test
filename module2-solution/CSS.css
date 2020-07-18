@@ -1,6 +1,7 @@
 
 * {
  	box-sizing: border-box;
+ 	font-family: Helvetics, sans-serif;
 }
 
 body{
@@ -12,42 +13,47 @@ h1 {
  	margin-bottom: 50px;
  	text-align: center;
  	color: #3CB9FC;
+ 	font-size: 30px;
 }
-/*refere-se as caixas onde estão os textos*/
+
+.row{
+	width: 100%;
+}
+
+/*refers to the text-boxes*/
 
 #box{
-	border: 5px solid #3CB9FC;
+	border: 1px solid black;
 	background-color: #8A2BE2;
 	width: 95%;
 	height: 275px;
 	color: #001437;
 	margin-right: auto;
 	margin-left: auto;
-	font-family:  Helvetica;
 	font-weight: bold;
 }
 
 #box-3{
-	border: 5px solid #3CB9FC;
+	border: 1px solid black;
 	background-color: #8A2BE2;
 	width: 95%;
 	height: 275px;
 	color: #001437;
 	margin-right: auto;
 	margin-left: auto;
-	font-family:  Helvetica;
 	font-weight: bold;
 }
 
-/*refere-se aos subtítulos*/
+/*refers to the subtitles*/
 
 #titulo1{
 	height: 30px;
 	width: 100px;
-	border-left: 5px solid #3CB9FC;
-	border-bottom: 5px solid #3CB9FC;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 	background-color: #00FFFF;
 	color: #0033FF;
+	font-size: 15px;
 	position: relative;
 	text-align: center;
 	margin-top: 0px;
@@ -58,10 +64,11 @@ h1 {
 #titulo2{
 	height: 30px;
 	width: 100px;
-	border-left: 5px solid #3CB9FC;
-	border-bottom: 5px solid #3CB9FC;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 	background-color: #00FF66;
 	color: black;
+	font-size: 15px;
 	position: relative;
 	text-align: center;
 	margin-top: 0px;
@@ -72,16 +79,19 @@ h1 {
 #titulo3{
 	height: 30px;
 	width: 100px;
-	border-left: 5px solid #3CB9FC;
-	border-bottom: 5px solid #3CB9FC;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 	background-color: #FFFF00;
 	color: #9900FF;
+	font-size: 15px;
 	position: relative;
 	text-align: center;
 	margin-top: 0px;
 	padding: 5px;
 	float: right;
 }
+
+/*refers to the paragraphs*/
 
 #parágrafo{
 	padding: 5%;
@@ -91,10 +101,6 @@ h1 {
 
 a{
 	text-decoration: none;
-}
-
-.row{
-	width: 100%;
 }
 
 @media (min-width: 992px) {
