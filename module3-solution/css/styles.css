@@ -1,0 +1,128 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #EAFFFD;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  font-family:  'Bebas Neue', cursive;
+  background-color: #232528;
+  border-radius: 0;
+  border: 0;
+  height: 65px;  
+  margin-bottom: 0;
+}
+
+#header-nav .container{
+	margin-left: 0;
+}
+
+.container .navbar-header{
+	margin-left: 15px;
+}
+
+.navbar-brand a{
+	 font-size: 1.5em;
+}
+
+#collapsable-nav{
+	border: none;
+	cursor: pointer;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #FFDF00;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  line-height: .75;
+  position: relative;
+  text-align: left;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  position: relative;
+  border: solid #FFDF00;
+  color: white;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -45px;
+  margin-bottom: 5px;
+}
+
+.navbar-header button.navbar-toggle:hover {
+	background-color:  #FFDF00;
+}
+
+.navbar-header button.navbar-toggle:active {
+	background-color:  #FFDF00;
+}
+
+#nav-list {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#nav-list li{
+	border-top: 2px solid #232528;
+	background-color: #FFDF00;
+}
+
+#nav-list #last-li{
+	border-bottom: 2px solid #232528;
+}
+
+#nav-list a {
+  font-family:  'Bebas Neue', cursive;
+  font-size: 20px;
+  color: #232528;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #232528;
+  color:  #FFDF00;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+/**END HEADER**/
+
+/**TÍTULO**/
+
+
+#titulo p{
+    font-size: 1.5em;
+    display: block;
+    color: #232528;
+  }
+
+#textos{
+	background-color:  #232528;
+	color: #FFDF00;
+	text-align: justify;
+}
+#titulo2{
+	position: relative;
+	padding-top: 25px;
+}
+
+#words{
+	margin: 25px;
+	padding-bottom: 25px;
+}
+
+.col-xs-12{
+	margin-top: 25px;
+}
